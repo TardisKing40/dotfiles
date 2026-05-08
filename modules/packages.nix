@@ -10,6 +10,7 @@
     curl
     imv
     playerctl
+    vscode
     discord
   ];
 }
