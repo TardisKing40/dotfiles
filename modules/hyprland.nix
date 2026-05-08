@@ -3,7 +3,7 @@
 {
     programs.hyprland.enable = true;
 
-    enviroment.systemPackages = with pkgs; [
+    environment.systemPackages = with pkgs; [
       hyprpaper
       kitty
       libnotify
