@@ -11,5 +11,6 @@
     wofi
     gh
     brightnessctl
+    swaylock
   ];
 }

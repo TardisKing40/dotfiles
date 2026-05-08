@@ -10,5 +10,6 @@
             dedicatedServer.openFirewall = true;
         };
         zsh.enable = true;
+        sway.enable = true;
     };
 }
