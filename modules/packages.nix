@@ -10,5 +10,6 @@
     curl
     imv
     playerctl
+    discord
   ];
 }
