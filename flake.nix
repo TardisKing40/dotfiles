@@ -17,6 +17,7 @@
                         useGlobalPkgs = true;
                         useUserPackages = true;
                         users.twodis = import ./home;
+                        backupFileExtension = "backup";
                     };
                 }
             ];
