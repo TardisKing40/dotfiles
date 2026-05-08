@@ -10,5 +10,6 @@
     hyprpaper
     wofi
     gh
+    brightnessctl
   ];
 }
