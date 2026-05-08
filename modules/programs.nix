@@ -2,7 +2,6 @@
 
 {
     programs = {
-        hyprland.enable = true;
         firefox.enable = true;
         steam = {
             enable = true;

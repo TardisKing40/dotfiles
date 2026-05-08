@@ -10,5 +10,6 @@
         ./nixsettings.nix
         ./packages.nix
         ./users.nix
+	./hyprland.nix
     ];
 }
