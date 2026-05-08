@@ -12,5 +12,6 @@
         ./users.nix
 	./hyprland.nix
 	./fonts.nix
+	./theme.nix
     ];
 }
