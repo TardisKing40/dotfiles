@@ -3,12 +3,12 @@
 {
     programs.hyprland.enable = true;
 
-    enviroment.systemPackages = with pkgs; {
+    enviroment.systemPackages = with pkgs; [
       hyprpaper
       kitty
       libnotify
       swaylock
       wofi
       waybar
-    }
+    ];
 }
