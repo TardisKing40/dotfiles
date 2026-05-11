@@ -14,5 +14,6 @@
     discord
     spotify
     kdePackages.dolphin
+    element-desktop
   ];
 }
