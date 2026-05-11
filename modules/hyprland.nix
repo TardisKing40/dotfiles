@@ -10,5 +10,6 @@
       swaylock
       wofi
       waybar
+      sway-contrib.grimshot
     ];
 }
