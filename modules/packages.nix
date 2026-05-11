@@ -13,5 +13,6 @@
     vscode
     discord
     spotify
+    kdePackages.dolphin
   ];
 }
