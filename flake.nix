@@ -18,7 +18,7 @@
                     home-manager = {
                         useGlobalPkgs = true;
                         useUserPackages = true;
-                        users.twodis.imports [
+                        users.twodis.imports = [
 				./home
 				catppuccin.homeModules.catppuccin
 			];
