@@ -15,5 +15,6 @@
     spotify
     kdePackages.dolphin
     element-desktop
+    htop
   ];
 }
