@@ -15,6 +15,7 @@
 	    };
             shellAliases = {
                 ls = "ls -la --color=auto";
+		cls = "clear";
                 rebuild = "sudo nixos-rebuild switch --flake ~/dotfiles/";
             };
         };
