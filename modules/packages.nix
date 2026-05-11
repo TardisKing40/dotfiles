@@ -12,5 +12,6 @@
     playerctl
     vscode
     discord
+    spotify
   ];
 }
