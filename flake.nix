@@ -18,7 +18,10 @@
                     home-manager = {
                         useGlobalPkgs = true;
                         useUserPackages = true;
-                        users.twodis = import ./home;
+                        users.twodis = imports [
+				./home
+				catppuccin.homeModules.catppuccin
+			];
                         backupFileExtension = "backup";
                     };
                 }
