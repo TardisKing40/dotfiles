@@ -18,7 +18,7 @@
                     home-manager = {
                         useGlobalPkgs = true;
                         useUserPackages = true;
-                        users.twodis = import './home';
+                        users.twodis = import ./home;
                         backupFileExtension = "backup";
                     };
                 }
