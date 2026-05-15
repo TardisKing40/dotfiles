@@ -12,4 +12,5 @@
 			package = pkgs.kdePackages.sddm;
 		};
     };
+	services.blueman.enable = true;
 }
