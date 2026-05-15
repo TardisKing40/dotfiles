@@ -5,7 +5,7 @@
         systemd-boot.enable = true;
         efi.canTouchEfiVariables = true;
     };
-    kernelParams = [
+    boot.kernelParams = [
         "quiet"
         "splash"
     ];
