@@ -16,5 +16,6 @@
     kdePackages.dolphin
     element-desktop
     htop
+    catppuccin-sddm
   ];
 }
