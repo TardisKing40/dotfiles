@@ -17,6 +17,5 @@
       element-desktop
       htop
       catppuccin-sddm
-      citrix_workspace
   ];
 }
