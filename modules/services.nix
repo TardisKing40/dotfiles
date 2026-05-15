@@ -5,9 +5,9 @@
     services.displayManager = {
         enable = true;
         defaultSession = "hyprland";
-        sddm = {
-            enable = true;
-            wayland.enable = true;
-        };
+	sddm = {
+		enable = true;
+		wayland.enable = true;
+	};
     };
 }
