@@ -1,5 +1,5 @@
 /* =====================================================
-   GLOBAL DEFAULTS
+  GLOBAL DEFAULTS
 ===================================================== */
 * {
   background-color: #161a22;
@@ -18,7 +18,7 @@
 }
 
 /* =====================================================
-   MODULE CONTAINERS
+  MODULE CONTAINERS
 ===================================================== */
 .modules-left {
   margin-left: 8px;
@@ -32,7 +32,7 @@
   margin-right: 8px;
 }
 /* =====================================================
-   WORKSPACES (HARD GTK RESET – NO SIDE LINES)
+  WORKSPACES (HARD GTK RESET – NO SIDE LINES)
 ===================================================== */
 #workspaces button {
   all: unset;                 /* ⬅ nuclear reset (GTK-safe) */
@@ -94,7 +94,7 @@
 
 
 /* =====================================================
-   ARCH KERNEL (REFERENCE STYLE)
+  ARCH KERNEL (REFERENCE STYLE)
 ===================================================== */
 #custom-kernel {
   color: #1793d1;
@@ -114,7 +114,7 @@
 }
 
 /* =====================================================
-   RIGHT SIDE – BASE LAYOUT
+  RIGHT SIDE – BASE LAYOUT
 ===================================================== */
 #bluetooth,
 #network,
@@ -142,7 +142,7 @@
 }
 
 /* =====================================================
-   KERNEL-LIKE PILL STYLE (SHARED)
+  KERNEL-LIKE PILL STYLE (SHARED)
 ===================================================== */
 #battery,
 #network,
@@ -153,7 +153,7 @@
   transition: all 0.2s ease;
 }
 /* =====================================================
-   CPU (KERNEL-STYLE)
+  CPU (KERNEL-STYLE)
 ===================================================== */
 #cpu {
   color: #93c5fd;
@@ -169,7 +169,7 @@
 
 
 /* =====================================================
-   BATTERY (KERNEL-STYLE)
+  BATTERY (KERNEL-STYLE)
 ===================================================== */
 #battery {
   color: #86efac;
@@ -198,7 +198,7 @@
 }
 
 /* =====================================================
-   NETWORK (KERNEL-STYLE)
+  NETWORK (KERNEL-STYLE)
 ===================================================== */
 #network {
   color: #67e8f9;
@@ -210,7 +210,7 @@
 }
 
 /* =====================================================
-   BLUETOOTH (KERNEL-STYLE)
+  BLUETOOTH (KERNEL-STYLE)
 ===================================================== */
 #bluetooth {
   color: #a5b4fc;
@@ -222,7 +222,7 @@
 }
 
 /* =====================================================
-   AUDIO (KERNEL-STYLE)
+  AUDIO (KERNEL-STYLE)
 ===================================================== */
 #pulseaudio {
   color: #93c5fd;
@@ -234,7 +234,7 @@
 }
 
 /* =====================================================
-   UPDATES
+  UPDATES
 ===================================================== */
 #custom-update {
   color: #fde68a;
@@ -252,7 +252,7 @@ window.nowplaying-art {
 
 
 /* =====================================================
-   CLOCK (UNDERLINE STYLE)
+  CLOCK (UNDERLINE STYLE)
 ===================================================== */
 #clock {
   color: #1793d1;
@@ -274,7 +274,7 @@ window.nowplaying-art {
 }
 
 /* =====================================================
-   APP LAUNCHERS (BRAVE + VS CODE)
+  APP LAUNCHERS (BRAVE + VS CODE)
 ===================================================== */
 #custom-brave,
 #custom-code {
@@ -307,7 +307,7 @@ window.nowplaying-art {
 }
 
 /* =====================================================
-   SCREEN RECORDING
+  SCREEN RECORDING
 ===================================================== */
 #custom-screenrecording-indicator.active {
   color: #fb7185;
@@ -315,7 +315,7 @@ window.nowplaying-art {
 }
 
 /* =====================================================
-   VOICE TYPE
+  VOICE TYPE
 ===================================================== */
 #custom-voxtype.recording {
   color: #f472b6;
@@ -323,7 +323,7 @@ window.nowplaying-art {
 }
 
 /* =====================================================
-   NOW PLAYING (CLASSIC STATUS STYLE)
+  NOW PLAYING (CLASSIC STATUS STYLE)
 ===================================================== */
 #custom-nowplaying {
   color: #c9d1d9;
@@ -345,7 +345,7 @@ window.nowplaying-art {
 
 
 /* =====================================================
-   TOOLTIP STYLING (GTK SAFE)
+  TOOLTIP STYLING (GTK SAFE)
 ===================================================== */
 tooltip {
   background-color: #0f141b;

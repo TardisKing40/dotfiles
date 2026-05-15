@@ -10,8 +10,8 @@
         ./nixsettings.nix
         ./packages.nix
         ./users.nix
-	./hyprland.nix
-	./fonts.nix
-	./theme.nix
+        ./hyprland.nix
+        ./fonts.nix
+        ./theme.nix
     ];
 }
