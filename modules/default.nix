@@ -13,5 +13,6 @@
         ./hyprland.nix
         ./fonts.nix
         ./theme.nix
+	./virtualisation.nix
     ];
 }
