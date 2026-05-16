@@ -6,6 +6,5 @@ in
 	".config/wallpapers".source = "${configDir}/wallpapers";
 	".config/waybar".source = "${configDir}/waybar";
 	".config/kitty".source = "${configDir}/kitty";
-	".config/vesktop".source = "${configDir}/vesktop";
     };
 }
