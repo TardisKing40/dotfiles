@@ -139,7 +139,7 @@
 "custom/discord": {
   "format": "",
   "tooltip": "Discord",
-  "on-click": "discord",
-  "on-click-right": "pkill discord"
+  "on-click": "vesktop",
+  "on-click-right": "pkill vesktop"
 }
 }
