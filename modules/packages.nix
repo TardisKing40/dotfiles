@@ -11,7 +11,7 @@
       imv
       playerctl
       vscode
-      discord
+      vesktop
       spotify
       kdePackages.dolphin
       element-desktop
