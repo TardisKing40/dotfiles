@@ -8,6 +8,7 @@
             "wheel"
             "networkmanager"
 	    "libvirtd"
+	    "wireshark"
         ];
         packages = with pkgs; [
             fastfetch

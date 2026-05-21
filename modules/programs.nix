@@ -10,5 +10,8 @@
         };
         zsh.enable = true;
         sway.enable = true;
+	wireshark.enable = true;
+	wireshark.dumpcap.enable = true;
+	wireshark.usbmon.enable = true;
     };
 }

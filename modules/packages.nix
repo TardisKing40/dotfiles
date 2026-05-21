@@ -18,5 +18,6 @@
       htop
       catppuccin-sddm
       bluez
+      wireshark
   ];
 }
