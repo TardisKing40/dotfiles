@@ -14,5 +14,6 @@
         ./fonts.nix
         ./theme.nix
 	./virtualisation.nix
+	./hardware.nix
     ];
 }
