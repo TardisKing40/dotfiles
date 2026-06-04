@@ -1,0 +1,6 @@
+require("modules/monitor")
+require("modules/exec")
+require("modules/binds")
+require("modules/window")
+require("modules/input")
+require("modules/windowrule")
