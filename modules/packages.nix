@@ -19,5 +19,7 @@
       catppuccin-sddm
       bluez
       wireshark
+      android-tools
+      vlc
   ];
 }
