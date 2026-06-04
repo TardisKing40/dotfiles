@@ -7,11 +7,16 @@ hl.bind("SUPER + mouse:272", hl.dsp.window.drag(), { mouse = true })
 hl.bind("SUPER + mouse:273", hl.dsp.window.resize(), { mouse = true })
 
 -- Workspaces
-for i = 1, 5 do
-    local key = i % 5
-    hl.bind("SUPER + " .. key, hl.dsp.focus({ workspace = i }))
-    hl.bind("SUPER + SHIFT + " .. key, hl.dsp.window.move({ workspace = i }))
-end
+hl.bind("SUPER + 1", hl.dsp.focus({ workspace = 1 }))
+hl.bind("SUPER + 2", hl.dsp.focus({ workspace = 2 }))
+hl.bind("SUPER + 3", hl.dsp.focus({ workspace = 3 }))
+hl.bind("SUPER + 4", hl.dsp.focus({ workspace = 4 }))
+hl.bind("SUPER + 5", hl.dsp.focus({ workspace = 5 }))
+hl.bind("SUPER + SHIFT + 1", hl.dsp.window.move({ workspace = 1 }))
+hl.bind("SUPER + SHIFT + 2", hl.dsp.window.move({ workspace = 2 }))
+hl.bind("SUPER + SHIFT + 3", hl.dsp.window.move({ workspace = 3 }))
+hl.bind("SUPER + SHIFT + 4", hl.dsp.window.move({ workspace = 4 }))
+hl.bind("SUPER + SHIFT + 5", hl.dsp.window.move({ workspace = 5 }))
 hl.bind("SUPER + mouse_down", hl.dsp.focus({ workspace = "m-1" }))
 hl.bind("SUPER + mouse_up", hl.dsp.focus({ workspace = "m+1" }))
 
