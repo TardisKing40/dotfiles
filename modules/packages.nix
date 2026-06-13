@@ -21,5 +21,6 @@
       wireshark
       android-tools
       vlc
+      brave
   ];
 }
