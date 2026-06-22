@@ -7,8 +7,8 @@
         extraGroups = [
             "wheel"
             "networkmanager"
-	    "libvirtd"
-	    "wireshark"
+            "libvirtd"
+            "wireshark"
         ];
         packages = with pkgs; [
             fastfetch
