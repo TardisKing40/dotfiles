@@ -13,7 +13,7 @@
         ./hyprland.nix
         ./fonts.nix
         ./theme.nix
-	./virtualisation.nix
-	./hardware.nix
+        ./virtualisation.nix
+        ./hardware.nix
     ];
 }
