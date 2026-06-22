@@ -34,7 +34,7 @@ hl.bind("SUPER + E", hl.dsp.exec_cmd("dolphin"))
 hl.bind("SUPER + SPACE", hl.dsp.exec_cmd("firefox"))
 
 -- Utilities
-hl.bind("SUPER + L", hl.dsp.exec_cmd("swaylock"))
+hl.bind("SUPER + L", hl.dsp.exec_cmd("hyprlock"))
 hl.bind("SUPER + Print", hl.dsp.exec_cmd("grimshot save screen"))
 
 -- Media keys

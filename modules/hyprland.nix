@@ -5,9 +5,9 @@
 
     environment.systemPackages = with pkgs; [
       hyprpaper
+      hyprlock
       kitty
       libnotify
-      swaylock
       wofi
       waybar
       sway-contrib.grimshot
