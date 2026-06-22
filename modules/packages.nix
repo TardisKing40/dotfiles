@@ -22,5 +22,6 @@
       android-tools
       vlc
       brave
+      moonlight-qt
   ];
 }
