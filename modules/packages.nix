@@ -23,5 +23,6 @@
       vlc
       brave
       moonlight-qt
+      yubikey-manager
   ];
 }

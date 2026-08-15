@@ -13,5 +13,6 @@
 	wireshark.enable = true;
 	wireshark.dumpcap.enable = true;
 	wireshark.usbmon.enable = true;
+	gnupg.agent.enable = true;
     };
 }
