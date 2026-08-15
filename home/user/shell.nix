@@ -15,7 +15,7 @@
 			};
             shellAliases = {
 				cls = "clear";
-                rebuild = "sudo nixos-rebuild switch --flake ~/dotfiles/";
+                rebuild = "sudo nixos-rebuild switch --upgrade --flake ~/dotfiles/";
             };
         };
     };
