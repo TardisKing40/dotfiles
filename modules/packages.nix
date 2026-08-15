@@ -24,5 +24,6 @@
       brave
       moonlight-qt
       yubikey-manager
+      localsend
   ];
 }
