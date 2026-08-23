@@ -1,5 +1,5 @@
 -- Window management
-hl.bind("SUPER + Q", hl.dsp.window.close())
+hl.bind("SUPER + W", hl.dsp.window.close())
 hl.bind("SUPER + V", hl.dsp.window.float({action = "toggle"}))
 hl.bind("SUPER + P", hl.dsp.window.pseudo())
 hl.bind("SUPER + J", hl.dsp.layout("togglesplit"))
@@ -28,10 +28,10 @@ hl.bind("SUPER + up", hl.dsp.focus({ direction = "u" }))
 hl.bind("SUPER + down", hl.dsp.focus({ direction = "d" }))
 
 -- Programs
-hl.bind("SUPER + Tab", hl.dsp.exec_cmd("wofi --show drun"))
+hl.bind("SUPER + SPACE", hl.dsp.exec_cmd("wofi --show drun"))
 hl.bind("SUPER + RETURN", hl.dsp.exec_cmd("kitty"))
-hl.bind("SUPER + E", hl.dsp.exec_cmd("dolphin"))
-hl.bind("SUPER + SPACE", hl.dsp.exec_cmd("firefox"))
+hl.bind("SUPER + SHIFT + F", hl.dsp.exec_cmd("dolphin"))
+hl.bind("SUPER + SHIFT + RETURN", hl.dsp.exec_cmd("firefox"))
 
 -- Utilities
 hl.bind("SUPER + L", hl.dsp.exec_cmd("hyprlock"))
