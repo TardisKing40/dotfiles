@@ -15,7 +15,6 @@
       kdePackages.dolphin
       element-desktop
       htop
-      catppuccin-sddm
       bluez
       wireshark
       android-tools
