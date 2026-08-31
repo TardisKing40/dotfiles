@@ -7,5 +7,6 @@
 		glib
 		gsettings-desktop-schemas
 		nwg-look
+		arc-theme
 	];
 }
