@@ -130,12 +130,6 @@
   "on-scroll-up": "playerctl volume 0.05+",
   "on-scroll-down": "playerctl volume 0.05-"
 },
-"custom/code": {
-  "format": "󰨞",
-  "tooltip": "Visual Studio Code",
-  "on-click": "code",
-  "on-click-right": "pkill code"
-},
 "custom/discord": {
   "format": "",
   "tooltip": "Discord",

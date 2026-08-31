@@ -10,7 +10,6 @@
       curl
       imv
       playerctl
-      vscode
       vesktop
       spotify
       kdePackages.dolphin
