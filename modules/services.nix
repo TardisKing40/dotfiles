@@ -14,4 +14,5 @@
     };
     services.blueman.enable = true;
     services.yubikey-agent.enable = true;
+    services.logind.settings.Login.HandlePowerKey = "ignore";
 }
