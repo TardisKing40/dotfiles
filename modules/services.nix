@@ -11,6 +11,13 @@
 		};
 	};
     };
+    security.pam.services.greetd = {
+	u2fAuth = true;
+    };
+    security.pam.u2f = {
+	enable = true;
+	control = "sufficient";
+    };
     services.blueman.enable = true;
     services.yubikey-agent.enable = true;
     services.logind.settings.Login.HandlePowerKey = "ignore";

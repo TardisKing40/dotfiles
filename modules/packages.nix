@@ -23,5 +23,6 @@
       moonlight-qt
       yubikey-manager
       localsend
+      pam_u2f
   ];
 }
