@@ -4,23 +4,23 @@ hl.config({
         gaps_out = 20,
         border_size = 2,
         col = {
-            active_border   = { colors = {"rgba(33ccffee)", "rgba(00ff99ee)"}, angle = 45 },
-            inactive_border = "rgba(595959aa)",
+            active_border   = "rgb(c200fb)",
+            inactive_border = "rgb(00120b)",
         },
         resize_on_border = false,
         allow_tearing = false,
         layout = "dwindle",
     },
     decoration = {
-        rounding       = 10,
+        rounding       = 4,
         rounding_power = 2,
         active_opacity   = 1.0,
         inactive_opacity = 1.0,
         shadow = {
             enabled      = true,
-            range        = 4,
+            range        = 12,
             render_power = 3,
-            color        = 0xee1a1a1a,
+            color        = 0xee001419,
         },
         blur = {
             enabled   = true,
