@@ -21,7 +21,7 @@
     services.blueman.enable = true;
     services.yubikey-agent.enable = true;
     services.logind.settings.Login.HandlePowerKey = "ignore";
-    services.cron {
+    services.cron = {
         enable = true;
 	systemCronJobs = [
 	    "0 0 * * * > ~/home/*/.zsh_history"
