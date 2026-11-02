@@ -24,6 +24,5 @@
       yubikey-manager
       localsend
       pam_u2f
-      cron
   ];
 }
