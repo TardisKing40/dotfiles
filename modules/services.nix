@@ -24,7 +24,7 @@
     services.cron = {
         enable = true;
 	systemCronJobs = [
-	    "0 0 * * * > ~/home/*/.zsh_history"
+	    "0 * * * * > /home/*/.zsh_history"
 	    ];
     };
 }
