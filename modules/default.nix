@@ -15,6 +15,6 @@
         ./theme.nix
         ./virtualisation.nix
         ./hardware.nix
-	./kde.nix
+        ./kde.nix
     ];
 }

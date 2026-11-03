@@ -10,9 +10,11 @@
         };
         zsh.enable = true;
         sway.enable = true;
-	wireshark.enable = true;
-	wireshark.dumpcap.enable = true;
-	wireshark.usbmon.enable = true;
-	gnupg.agent.enable = true;
+        wireshark = {
+            enable = true;
+            dumpcap.enable = true;
+            usbmon.enable = true;
+        };
+        gnupg.agent.enable = true;
     };
 }

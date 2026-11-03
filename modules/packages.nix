@@ -2,27 +2,27 @@
 
 {
     environment.systemPackages = with pkgs; [
-      neovim
-      wget
-      git
-      gh
-      brightnessctl
-      curl
-      imv
-      playerctl
-      vesktop
-      spotify
-      kdePackages.dolphin
-      element-desktop
-      htop
-      bluez
-      wireshark
-      android-tools
-      vlc
-      brave
-      moonlight-qt
-      yubikey-manager
-      localsend
-      pam_u2f
+        neovim
+        wget
+        git
+        gh
+        brightnessctl
+        curl
+        imv
+        playerctl
+        vesktop
+        spotify
+        kdePackages.dolphin
+        element-desktop
+        htop
+        bluez
+        wireshark
+        android-tools
+        vlc
+        brave
+        moonlight-qt
+        yubikey-manager
+        localsend
+        pam_u2f
   ];
 }
